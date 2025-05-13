@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "景点详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "swiper-img": "../../components/swiperImg/swiperImg",
+    "input-box": "../../components/inputBox/inputBox"
+  }
+}

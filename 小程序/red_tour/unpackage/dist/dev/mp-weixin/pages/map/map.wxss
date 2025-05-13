@@ -1,0 +1,83 @@
+
+.map {
+		width: 100vw;
+		height: 100vh;
+}
+.map-content {
+		position: absolute;
+		bottom: 40rpx;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 86%;
+		padding: 30rpx;
+		border-radius: 24rpx;
+		background: rgba(255, 255, 255, 0.95);
+		box-shadow: 0 8rpx 32rpx rgba(0, 0, 0, 0.12);
+		-webkit-backdrop-filter: blur(10px);
+		        backdrop-filter: blur(10px);
+		transition: all 0.3s ease;
+}
+.map-content:active {
+		transform: translateX(-50%) scale(0.98);
+}
+
+	/* 景点名称容器 */
+.name-container {
+		display: flex;
+		align-items: center;
+		margin-bottom: 16rpx;
+}
+.redLine {
+		width: 6rpx;
+		height: 36rpx;
+		background: linear-gradient(to bottom, #ff4d4f, #ff7875);
+		margin-right: 16rpx;
+		border-radius: 6rpx;
+}
+.addressName {
+		font-size: 36rpx;
+		font-weight: 600;
+		color: #1a1a1a;
+		flex: 1;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+}
+.addressText {
+		font-size: 28rpx;
+		color: #666;
+		margin: 16rpx 0;
+		padding-left: 22rpx;
+		display: flex;
+		align-items: center;
+}
+
+	/* 添加地址图标 */
+.ngtDetail {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 20rpx;
+		padding: 16rpx 22rpx;
+		background: #f8fafc;
+		border-radius: 12rpx;
+}
+
+	/* 时间信息样式 */
+.time-info {
+		font-size: 28rpx;
+		color: #666;
+		display: flex;
+		align-items: center;
+}
+.cheText {
+		font-size: 26rpx;
+		color: #3b82f6;
+		padding: 8rpx 24rpx;
+		background: rgba(59, 130, 246, 0.1);
+		border-radius: 100rpx;
+		transition: all 0.3s ease;
+}
+.cheText:active {
+		background: rgba(59, 130, 246, 0.2);
+}

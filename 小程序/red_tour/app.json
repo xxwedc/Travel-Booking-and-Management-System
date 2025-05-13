@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/ranking/ranking"
+    // ... 其他页面
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "景点排行",
+    "navigationBarTextStyle": "black"
+  }
+} 

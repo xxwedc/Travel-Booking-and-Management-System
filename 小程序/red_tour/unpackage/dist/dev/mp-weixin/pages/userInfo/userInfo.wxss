@@ -1,0 +1,48 @@
+page {
+	background-image: url("http://localhost:8888/pic/indexbg.png");
+}
+.register-container {
+  padding: 20px;
+}
+.input-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+input {
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+picker {
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.submit-btn {
+  background-color: #007aff;
+  color: white;
+  height: 45px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+.success-message {
+  color: green;
+  font-size: 12px;
+}
+.password-btn {
+		margin-bottom: 15px;
+}

@@ -1,0 +1,80 @@
+/* 侧边栏容器 */
+.sidebar-container {
+    height: calc(100vh - 168px);
+    padding-top: 8px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+/* 滚动条样式 */
+.sidebar-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sidebar-container::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+}
+
+.sidebar-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* 菜单样式 */
+.sidebar-menu {
+    height: 100%;
+    border: none;
+    padding: 12px;
+}
+
+.sidebar-menu :deep(.el-menu) {
+    background: transparent;
+    border: none;
+}
+
+.sidebar-menu :deep(.el-menu-item) {
+    height: 48px;
+    margin: 8px 0;
+    padding: 0 16px !important;
+    border-radius: 8px;
+    color: #475569;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.sidebar-menu :deep(.el-menu-item.is-active) {
+    background: #f8f9fa !important;
+    color: var(--el-color-primary) !important;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-menu :deep(.el-menu-item:hover) {
+    background: #f1f5f9 !important;
+    color: var(--el-color-primary);
+    transform: translateX(4px);
+}
+
+/* 菜单图标 */
+.sidebar-menu :deep(.el-menu-item .el-icon) {
+    font-size: 20px;
+    margin-right: 14px;
+    width: 24px;
+    text-align: center;
+    color: #64748b;
+}
+
+.sidebar-menu :deep(.el-menu-item.is-active .el-icon) {
+    color: var(--el-color-primary);
+}
+
+/* 菜单项文字 */
+.sidebar-menu :deep(.el-menu-item span) {
+    margin-left: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.95);
+    white-space: nowrap;
+}

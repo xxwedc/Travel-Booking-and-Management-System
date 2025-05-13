@@ -1,0 +1,122 @@
+page {
+	background-image: url("http://localhost:8888/pic/indexbg.png");
+}
+.container {
+	padding: 24rpx;
+	background: #f8fafc;
+	min-height: 100vh;
+}
+.park-item {
+	margin-bottom: 30rpx;
+	background: #ffffff;
+	border-radius: 24rpx;
+	overflow: hidden;
+	box-shadow: 
+		0 4rpx 20rpx rgba(244, 63, 94, 0.06),
+		0 2rpx 8rpx rgba(244, 63, 94, 0.04);
+	transition: transform 0.3s ease;
+	position: relative;
+	animation: fadeInUp 0.5s ease-out forwards;
+	opacity: 0;
+}
+.park-item:active {
+	transform: scale(0.98);
+}
+.park-image {
+	width: 100%;
+	height: 360rpx;
+	object-fit: cover;
+	border-radius: 24rpx 24rpx 0 0;
+	background: #f1f5f9;
+	animation: imageFade 0.3s ease-out forwards;
+}
+.park-info {
+	padding: 24rpx 30rpx;
+}
+.park-name {
+	font-size: 34rpx;
+	font-weight: 600;
+	color: #1e293b;
+	margin-bottom: 16rpx;
+	display: block;
+}
+.park-status-time {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20rpx;
+}
+.park-address {
+	font-size: 26rpx;
+	color: #64748b;
+	flex: 1;
+	margin-right: 20rpx;
+}
+.park-time {
+	font-size: 26rpx;
+	color: #94a3b8;
+	padding: 6rpx 16rpx;
+	background: #f1f5f9;
+	border-radius: 20rpx;
+}
+.park-features {
+	display: flex;
+	gap: 16rpx;
+	flex-wrap: wrap;
+}
+.park-features text {
+	padding: 6rpx 20rpx;
+	border-radius: 12rpx;
+	font-size: 24rpx;
+	font-weight: 500;
+}
+.yellow-feature {
+	background: #fef9c3;
+	color: #854d0e;
+	border: 1px solid #fde047;
+}
+.green-feature {
+	background: #dcfce7;
+	color: #166534;
+	border: 1px solid #86efac;
+}
+@keyframes fadeInUp {
+from {
+		opacity: 0;
+		transform: translateY(20rpx);
+}
+to {
+		opacity: 1;
+		transform: translateY(0);
+}
+}
+.park-item:nth-child(1) { animation-delay: 0.1s;
+}
+.park-item:nth-child(2) { animation-delay: 0.2s;
+}
+.park-item:nth-child(3) { animation-delay: 0.3s;
+}
+.park-item:nth-child(4) { animation-delay: 0.4s;
+}
+.park-item:nth-child(5) { animation-delay: 0.5s;
+}
+@keyframes imageFade {
+from {
+		opacity: 0;
+}
+to {
+		opacity: 1;
+}
+}
+.empty-state {
+	text-align: center;
+	padding: 60rpx 0;
+	color: #94a3b8;
+	font-size: 28rpx;
+}
+.loading {
+	text-align: center;
+	padding: 20rpx 0;
+	color: #94a3b8;
+	font-size: 26rpx;
+}

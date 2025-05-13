@@ -1,0 +1,82 @@
+page {
+	background-image: url("http://localhost:8888/pic/indexbg.png");
+}
+
+.container {
+	padding: 20rpx;
+	background-color: #f5f7fa;
+	
+}
+
+.park-item {
+	background: #ffffff;
+	border-radius: 16rpx;
+	margin-bottom: 24rpx;
+	box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.08);
+	overflow: hidden;
+	transition: transform 0.2s ease;
+}
+
+.park-item:active {
+	transform: scale(0.98);
+}
+
+.park-image {
+	width: 100%;
+	height: 320rpx;
+	object-fit: cover;
+}
+
+.park-info {
+	padding: 24rpx;
+	margin-bottom: 20px;
+}
+
+.park-name {
+	font-size: 32rpx;
+	font-weight: 600;
+	color: #2c3e50;
+	margin-bottom: 16rpx;
+	display: block;
+}
+
+.park-status-time {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20rpx;
+}
+
+.park-status {
+	font-size: 26rpx;
+	color: #27ae60;
+	background: rgba(39, 174, 96, 0.1);
+	padding: 4rpx 16rpx;
+	border-radius: 100rpx;
+	margin-right: 16rpx;
+}
+
+.park-time {
+	font-size: 26rpx;
+	color: #7f8c8d;
+}
+
+.park-features {
+	display: flex;
+	justify-content: flex-end;
+	border-top: 2rpx solid #ecf0f1;
+	padding-top: 20rpx;
+	margin-top: 16rpx;
+}
+
+.createOrder {
+	background: #3498db;
+	color: #ffffff;
+	font-size: 28rpx;
+	padding: 12rpx 32rpx;
+	border-radius: 100rpx;
+	font-weight: 500;
+}
+
+.createOrder:active {
+	background: #2980b9;
+}

@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/map/map",
+    "pages/myOrder/myOrder",
+    "pages/detail/detail",
+    "pages/newsDetail/newsDetail",
+    "pages/userInfo/userInfo",
+    "pages/allScenic/allScenic",
+    "pages/createOrder/createOrder",
+    "pages/ranking/ranking",
+    "pages/order/order",
+    "pages/aboutUs/aboutUs",
+    "pages/forgotPassword/forgotPassword",
+    "pages/qrCode/qrCode"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#f62004",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "发现",
+        "iconPath": "./static/icon/fx1.png",
+        "selectedIconPath": "./static/icon/fx2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/icon/my1.png",
+        "selectedIconPath": "static/icon/my2.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "增城红旅",
+  "usingComponents": {
+    "swiper-img": "../../components/swiperImg/swiperImg"
+  }
+}

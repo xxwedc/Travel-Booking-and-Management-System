@@ -1,0 +1,115 @@
+
+.park-detail {
+		margin: 15px;
+		padding: 20px;
+		border-radius: 16px;
+		background: #fff;
+		box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+.park-name {
+		font-size: 24px;
+		font-weight: 600;
+		color: #333;
+		margin-bottom: 15px;
+}
+.park-status-info {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		margin: 15px 0;
+}
+.park-status {
+		display: flex;
+}
+.status-text {
+		padding: 6px 12px;
+		border-radius: 20px;
+		font-size: 14px;
+		font-weight: 500;
+}
+.time-text {
+		color: #666;
+		font-size: 14px;
+}
+.park-features {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+		margin: 15px 0;
+}
+.feature-text {
+		background: #f0f0f0;
+		color: #666;
+		padding: 6px 12px;
+		border-radius: 8px;
+		font-size: 13px;
+}
+.goOrder{
+		position: absolute;
+		right: 17px;
+		margin-top: 2px;
+		color: #666;
+		font-size: 14px;
+		text-decoration: underline;
+}
+.noGoOrder{
+		position: absolute;
+		right: 15px;
+		margin-top: 2px;
+		color: #666;
+		font-size: 14px;
+}
+.park-address {
+		color: #666;
+		font-size: 14px;
+		margin: 15px 0;
+}
+.detailTe {
+		background: #f8f8f8;
+		padding: 15px;
+		border-radius: 12px;
+		margin-top: 15px;
+		line-height: 1.6;
+}
+.green-bg {
+		background: #4CAF50;
+		color: white;
+}
+.red-bg {
+		background: #FF5722;
+		color: white;
+}
+.comments-section {
+		margin: 15px;
+		padding: 20px;
+		border-radius: 16px;
+		background: #2c3e50;
+		color: white;
+}
+.comments-title {
+		font-size: 18px;
+		font-weight: 600;
+		margin-bottom: 15px;
+		padding-left: 10px;
+		border-left: 3px solid #4CAF50;
+}
+.comment-item {
+		padding: 15px;
+		margin-top: 10px;
+		background: rgba(255, 255, 255, 0.1);
+		border-radius: 12px;
+}
+.comment-user {
+		font-weight: 600;
+		margin-bottom: 8px;
+}
+.comment-content {
+		font-size: 14px;
+		line-height: 1.5;
+		opacity: 0.9;
+}
+.noTitle {
+		text-align: center;
+		padding: 20px;
+		color: rgba(255, 255, 255, 0.7);
+}

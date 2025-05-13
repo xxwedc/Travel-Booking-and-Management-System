@@ -1,0 +1,1 @@
+<view class="input-box data-v-1e520b65"><input class="input-area data-v-1e520b65" placeholder="键入您的留言" maxlength="{{a}}" bindinput="{{b}}" type="text" confirm-type="send" bindconfirm="{{c}}" value="{{d}}"/><button class="{{['submit-btn', 'data-v-1e520b65', e && 'active']}}" bindtap="{{f}}">发送</button></view>

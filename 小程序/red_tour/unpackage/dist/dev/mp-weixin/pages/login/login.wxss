@@ -1,0 +1,283 @@
+page {
+	background-image: url("http://localhost:8888/pic/indexbg.png");
+}
+.register-container {
+  padding: 30px 20px;
+}
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.title text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+.input-item {
+  margin-bottom: 25px;
+  position: relative;
+}
+.label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 8px;
+  display: block;
+}
+input {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 0 15px;
+  font-size: 14px;
+  background: #f8f8f8;
+}
+input:focus {
+  border-color: #FF0036;
+  background: #fff;
+}
+.captcha-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+}
+.captcha-input {
+  flex: 1;
+}
+.captcha-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 22px;
+  width: 120px;
+}
+canvas {
+  width: 120px;
+  height: 45px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  border: 1px solid #e5e5e5;
+}
+.yzm-link {
+  font-size: 12px;
+  color: #999;
+  margin-top: 2px;
+}
+.submit-btn {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  background: #FF0036;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.submit-btn:active {
+  opacity: 0.8;
+}
+.error-message {
+  color: #FF0036;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+.success-message {
+  color: #52c41a;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+.bottom-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 30px;
+}
+.forgot-password {
+  color: #999;
+  font-size: 14px;
+}
+.register-link {
+  color: #FF0036;
+  font-size: 14px;
+}
+.forgot-password:active,
+.register-link:active {
+  opacity: 0.7;
+}
+.register-container {
+	padding: 30px 20px;
+}
+.title {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.title text {
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+}
+.input-item {
+	margin-bottom: 25px;
+	position: relative;
+}
+.label {
+	font-size: 14px;
+	color: #333;
+	margin-bottom: 8px;
+	display: block;
+}
+input {
+	width: 80%;
+	height: 45px;
+	border: 1px solid #e5e5e5;
+	border-radius: 8px;
+	padding: 0 15px;
+	font-size: 14px;
+	background: #f8f8f8;
+}
+input:focus {
+	border-color: #FF0036;
+	background: #fff;
+}
+.captcha-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 15px;
+}
+.captcha-input {
+	flex: 1;
+}
+.captcha-area {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 22px;
+	width: 120px;
+}
+canvas {
+	width: 120px;
+	height: 45px;
+	border-radius: 4px;
+	margin-bottom: 4px;
+	border: 1px solid #e5e5e5;
+}
+.yzm-link {
+	font-size: 12px;
+	color: #999;
+	margin-top: 2px;
+}
+.submit-btn {
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	background: #FF0036;
+	border-radius: 8px;
+	font-size: 16px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.submit-btn:active {
+	opacity: 0.8;
+}
+.error-message {
+	color: #FF0036;
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+}
+.success-message {
+	color: #52c41a;
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+}
+.bottom-links {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 20px;
+	margin-top: 30px;
+}
+.forgot-password {
+	color: #999;
+	font-size: 14px;
+}
+.register-link {
+	color: #FF0036;
+	font-size: 14px;
+}
+.forgot-password:active,
+  .register-link:active {
+	opacity: 0.7;
+}
+.register-container {
+	padding: 20px;
+}
+.input-item {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+.label {
+	font-size: 14px;
+	color: #333;
+	margin-bottom: 5px;
+}
+input,
+picker {
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 0 10px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.submit-btn {
+	background-color: #007aff;
+	color: white;
+	height: 45px;
+	border-radius: 5px;
+	margin-top: 20px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+input:focus,
+picker:focus {
+	border-color: #007aff;
+}
+.input-item {
+	margin-bottom: 30rpx;
+}
+.label {
+	font-size: 28rpx;
+}
+input,
+picker {
+	height: 80rpx;
+}
+.submit-btn {
+	height: 90rpx;
+	margin-top: 40rpx;
+}
+.register-link {
+	font-size: 12px;
+	color: gray;
+	text-align: center;
+	margin: 10px 0px 0px 20px;
+	text-decoration: underline;
+}
+.yzm-link {
+	font-size: 12px;
+	color: gray;
+	text-align: center;
+	margin: 10px 0px 0px 0px;
+}
+
+

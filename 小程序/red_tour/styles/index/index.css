@@ -1,0 +1,113 @@
+.page-container {
+	background: #f8f8f8;
+}
+
+.nav-container {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(140rpx, 1fr));
+	gap: 24rpx;
+	padding: 40rpx 30rpx;
+	margin: 20rpx;
+	background: linear-gradient(145deg, #fff8f8 0%, #fff2f2 100%);
+	border-radius: 32rpx;
+	box-shadow: 0 8rpx 30rpx rgba(244, 63, 94, 0.08);
+}
+
+.nav-button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 24rpx 16rpx;
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 24rpx;
+	box-shadow: 0 4rpx 15rpx rgba(244, 63, 94, 0.06);
+	transition: all 0.3s ease;
+}
+
+.nav-button-active {
+	transform: scale(0.96);
+}
+
+.nav-icon {
+	width: 88rpx;
+	height: 88rpx;
+	margin-bottom: 12rpx;
+	border-radius: 22rpx;
+	filter: invert(21%) sepia(99%) saturate(7085%) hue-rotate(343deg) brightness(94%) contrast(96%);
+}
+
+.nav-text {
+	font-size: 26rpx;
+	color: #e11d48;
+	font-weight: 500;
+}
+
+.info-header {
+	margin: 30rpx 20rpx 20rpx;
+	padding: 10rpx 30rpx;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.info-title {
+	font-size: 36rpx;
+	font-weight: 600;
+	color: #dc2626;
+	padding-left: 24rpx;
+	letter-spacing: 2rpx;
+	position: relative;
+}
+
+.info-title-line {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 8rpx;
+	height: 30rpx;
+	background: linear-gradient(to bottom, #dc2626, #ef4444);
+	border-radius: 4rpx;
+}
+
+.info-container {
+	padding: 0 20rpx 30rpx;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 24rpx;
+}
+
+.info-item {
+	background: #ffffff;
+	border-radius: 16rpx;
+	overflow: hidden;
+	box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.06);
+	transition: all 0.3s ease;
+	border: 1px solid rgba(220, 38, 38, 0.1);
+}
+
+.info-item-active {
+	transform: scale(0.98);
+	box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.04);
+}
+
+.info-image {
+	width: 100%;
+	height: 240rpx;
+	object-fit: cover;
+}
+
+.info-text {
+	padding: 20rpx;
+	font-size: 28rpx;
+	color: #4b5563;
+	line-height: 1.5;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 71rpx;
+	background: linear-gradient(to bottom, #ffffff, #fafafa);
+}

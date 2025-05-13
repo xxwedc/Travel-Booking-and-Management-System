@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "预约",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "swiper-img": "../../components/swiperImg/swiperImg"
+  }
+}
